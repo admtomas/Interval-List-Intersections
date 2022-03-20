@@ -27,6 +27,13 @@ function GetIntersection(firstList, secondList) {
             let endj = secondList[j][1];
 
 
+            // Find highest number between [starti] and [startj] as it will become starting point of Intersection
+            // Find lowest number between [endi] and [endj] as it will become ending point of Intersection
+            // Use min/max from math method
+            let resultStart = Math.max(starti, startj);
+            let resultEnd = Math.min(endi, endj);
+
+
 
 
 
