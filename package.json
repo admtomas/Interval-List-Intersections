@@ -1,0 +1,11 @@
+{
+    "name": "get_intersection",
+    "version": "1.0.0",
+    "description": "Interval List Intersections",
+    "main": "getIntersection.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Tomasz Amanowicz",
+    "license": "ISC"
+}
