@@ -16,9 +16,21 @@ function GetIntersection(firstList, secondList) {
     // Initial If statement to test conditions for lists lengths
     if ( conditionOne >= 1 && conditionTwo <= 1000) {
 
+        //  Loops through length of the lists
+        while (i < firstList.length && j < secondList.length) {
+
+            // Use "array[index][index]" to extract [starti, endi]  && [startj, endj] from both lists
+            let starti = firstList[i][0];
+            let endi = firstList[i][1];
+
+            let startj = secondList[j][0];
+            let endj = secondList[j][1];
 
 
 
+
+
+        }
         return result;
     }
 }
