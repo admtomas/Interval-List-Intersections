@@ -7,18 +7,20 @@ function GetIntersection(firstList, secondList) {
     let conditionOne = firstList.length + secondList.length;
     let conditionTwo = secondList.length;
 
+    // Variables to store result as an array and Index numbers for each list
+    let i = 0; // first list
+    let j = 0; // second list
+    let result = [];
+
+
+    // Initial If statement to test conditions for lists lengths
+    if ( conditionOne >= 1 && conditionTwo <= 1000) {
 
 
 
 
-
-
-
-
-
-
-
-
+        return result;
+    }
 }
 
 
