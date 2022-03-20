@@ -33,6 +33,17 @@ function GetIntersection(firstList, secondList) {
             let resultStart = Math.max(starti, startj);
             let resultEnd = Math.min(endi, endj);
 
+            // Push results to an empty array if the intervals intersect
+            // Execute the code If (0 <= starti < endi <= 109 && 0 <= startj < endj <= 109) is True
+            // Execute the code if (endi < starti+1) && (endj < startj+1) is Not True
+            if ( (starti >= 0 && starti < endi && endi <= 109) && ((startj >= 0 && startj < endj && endj <= 109)) ){
+                if ( !(endi < starti + 1) && !(endj < startj)) {
+                if (resultStart <= resultEnd) {
+                    result.push([resultStart, resultEnd]);
+                }
+            }
+            }
+
 
 
 
