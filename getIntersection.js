@@ -44,10 +44,12 @@ function GetIntersection(firstList, secondList) {
             }
             }
 
-
-
-
-
+            // Increase Index for the lists to loop over the array until end of the lists length
+            if (firstList[i][1] < secondList[j][1]) {
+                i++;
+            } else {
+                j++;
+            }
         }
         return result;
     }
